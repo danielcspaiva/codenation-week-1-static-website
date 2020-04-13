@@ -157,7 +157,7 @@ figure img {
 }
 
 .hero-titulo {
-	margin-top: 100px;
+	margin-top: 25vh;
 	font-size: 6.5rem;
 	text-transform: uppercase;
 }
@@ -186,7 +186,7 @@ figure img {
 	height: 45px; /*To Do*/
 
 	font-size: 1.5rem;			/*To Do*/
-	background-color:var(--main-yellow) ;
+	background-color: var(--main-yellow);
 	border-radius: 40px;
 	transition: filter 0.2s linear;
 }
@@ -199,6 +199,15 @@ figure img {
 .hero-botao:hover {
 	filter: opacity(0.8);
 	transition: filter 0.2s linear;
+}
+
+.hero-informacao {
+	font-size: 1.4rem;
+}
+
+.hero-informacao p + p {
+	color: var(--main-yellow);
+	margin-top: 15px;
 }
 
 /* MOVIES HEADER */
